@@ -1,0 +1,15 @@
+body{
+  box-sizing: border-box;
+}
+.Calculator{
+  width: 380px;
+  background-color: rgb(10, 139, 139);
+  height: 450px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.screen{
+  background-color: aqua;
+  height: 70px;
+  border-radius: 5px;
+}
