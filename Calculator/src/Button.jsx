@@ -1,8 +1,11 @@
 import React from "react";
 
-function Button({onClick,value}){
+function Button({className,value,onClick  }){
     return(
-        <button onClick={onClick}>{value}</button>
+        <button className={`button ${className}`} onClick={onClick}>
+        {value}
+      </button>
+  
     )
 }
 export default Button;

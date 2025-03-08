@@ -2,7 +2,7 @@ import React from "react";
 
 function Screen({value}){
     return(
-        <div className="screen">{value}</div>
+        <div className="screen" mode="single">{value}</div>
     )
 }
 export default Screen;

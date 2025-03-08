@@ -2,11 +2,9 @@ import React from "react";
 import Button from "./Button";
 
 
-function ButtonBox(){
+function ButtonBox({children}){
 return(
-    <div>
-<Button/>
-    </div>
+    <div className="button-box">{children}</div>
 )
 }
 export default ButtonBox;
